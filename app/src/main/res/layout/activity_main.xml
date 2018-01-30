@@ -38,6 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/d_5"
+                android:layout_marginLeft="50dp"
                 android:layout_marginRight="@dimen/d_5"
                 android:layout_marginTop="@dimen/d_5"
                 android:background="@drawable/shape_custom_checked_item_view"
@@ -52,6 +53,7 @@
             <android.support.v7.widget.AppCompatCheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
                 android:layout_marginBottom="@dimen/d_5"
                 android:layout_marginRight="@dimen/d_5"
                 android:layout_marginTop="@dimen/d_5"

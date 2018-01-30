@@ -158,8 +158,6 @@ public class CenterFlowLayout extends ViewGroup {
             CenterLayoutParams params = (CenterLayoutParams) child.getLayoutParams();
             if (params instanceof MarginLayoutParams) {
                 singleHorizalMargin = horizalMargin = params.rightMargin;
-            } else {
-                measureChild(child, widthMeasureSpec, heightMeasureSpec);
             }
             lastRowWidth += child.getMeasuredWidth() + mChildSpacing + horizalMargin;
         }
