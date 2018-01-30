@@ -37,8 +37,8 @@ public class CenterFlowLayout extends ViewGroup {
         super(context, attrs, defStyleAttr);
 
         TypedArray typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.CenterFlowLayout, 0, 0);
-        mChildSpacing = typedArray.getDimensionPixelSize(R.styleable.CenterFlowLayout_childSpacing, DEFAULT_CHILD_SPACING);
-        mRowSpacing = typedArray.getDimensionPixelSize(R.styleable.CenterFlowLayout_rowSpacing, DEFAULT_ROW_SPACING);
+        mChildSpacing = typedArray.getDimensionPixelSize(R.styleable.CenterFlowLayout_center_flow_layout_childSpacing, DEFAULT_CHILD_SPACING);
+        mRowSpacing = typedArray.getDimensionPixelSize(R.styleable.CenterFlowLayout_center_flow_layout_rowSpacing, DEFAULT_ROW_SPACING);
         typedArray.recycle();
     }
 

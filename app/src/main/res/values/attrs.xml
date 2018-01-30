@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CenterFlowLayout">
-        <attr name="childSpacing" format="dimension"/>
-        <attr name="rowSpacing" format="dimension"/>
+        <attr name="center_flow_layout_childSpacing" format="dimension"/>
+        <attr name="center_flow_layout_rowSpacing" format="dimension"/>
     </declare-styleable>
 </resources>
