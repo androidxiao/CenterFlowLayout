@@ -13,21 +13,33 @@
             android:layout_height="wrap_content"
             >
 
-            <TextView
+            <android.support.v7.widget.AppCompatCheckBox
                 android:layout_width="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="再别康桥"
                 />
 
-            <TextView
+            <android.support.v7.widget.AppCompatCheckBox
                 android:layout_width="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="你曾是少年"
                 />
    </com.zw.centerflowlayout.CenterFlowLayout>
+   
+   或者
+  
+        for(int i=0;i< str.length;i++) {
+            TextView tv= (TextView) LayoutInflater.from(this).inflate(R.layout.custom_checked_item_view, null,false);
+            tv.setText(str[i]);
+            tagGroup.addView(tv);
+        }
+        tagGroup.setChildSpacing(dp2px(this,10));
+        tagGroup.setRowSpacing(dp2px(this,20));
+   
  ```
+ 这里我使用的是`android.support.v7.widget.AppCompatCheckBox`，你可以替换自己想要的控件（TextView、CheckBox等等）。
 # 属性介绍
 | Attribute                | Format                       | Description                                                                                                                                          |
 |--------------------------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
