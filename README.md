@@ -43,8 +43,8 @@
 # 属性介绍
 | Attribute                | Format                       | Description                                                                                                                                          |
 |--------------------------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| childSpacing                   | dimension                      | 子View之间的间距                                                         |
-| rowSpacing           | dimension             | 子View的marginTop值   
+| center_flow_layout_childSpacing                   | dimension                      | 子View之间的间距                                                         |
+| center_flow_layout_rowSpacing           | dimension             | 子View的marginTop值   
 
 ps:具体使用方法请查看Demo
 
